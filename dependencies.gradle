@@ -1,7 +1,6 @@
 allprojects {
     repositories {
         google()
-        jcenter()
         mavenCentral()
     }
 }
@@ -12,9 +11,9 @@ ext {
     androidVersionName          = "1.0.0"
 
     // ANDROID VERSION
-    androidCompileSdkVersion    = 27
+    androidCompileSdkVersion    = 34
     androidMinSdkVersion        = 16
-    androidTargetSdkVersion     = 27
+    androidTargetSdkVersion     = 34
 
     // ANDROID LIB
     supportLibVersion           = '27.1.1'

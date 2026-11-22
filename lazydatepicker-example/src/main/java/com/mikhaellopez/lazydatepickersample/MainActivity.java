@@ -1,7 +1,7 @@
-package com.mikhaellopez.lazydatepickersample;
+﻿package com.mikhaellopez.lazydatepickersample;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -42,3 +42,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+

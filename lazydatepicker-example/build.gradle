@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace 'com.mikhaellopez.lazydatepickersample'
     compileSdkVersion androidCompileSdkVersion
     defaultConfig {
         applicationId "com.mikhaellopez.lazydatepickersample"
@@ -22,3 +23,5 @@ dependencies {
     //implementation "com.mikhaellopez:lazydatepicker:$androidVersionName"
     implementation appCompat
 }
+
+
